@@ -3,7 +3,7 @@
 If one IP exceed the limit setted, SynFB will send an alert e-mail to the administrator</p>
 <h2>Pre-requisites</h2>
 <ul>
-    <li>Debian based linux distro recommended. But it can run on all linux having shell commands present into the following line:
+    <li>Debian based linux distro recommended. But it can be run on all distros that have shell commands available in the following line:
         <br><code>netstat -ano | grep SYN_RECV |  awk {'print $4,$5'} | awk -F: {'print $1,$2'} | sort -k 3 | uniq -c | sort -k 1 | tail -1</code></li>
     <li>Python 2.7</li>
 </ul>
