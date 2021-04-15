@@ -1,7 +1,7 @@
 # SynFB
 <p>SynFB it's thinked for running on a Linux o.s. It's a software for detect every 40sec the IP who generate a lot of requests with flag SYN setted.
 If one IP exceed the limit setted, SynFB will send an alert e-mail to the administrator.
-The default the limit it's setted on 50 SYN.</p>
+The default limit it's setted on 50 SYN.</p>
 <h2>Pre-requisites</h2>
 <ul>
     <li>Debian based linux distro recommended. But it can be run on all distros that have shell commands available in the following line:
