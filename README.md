@@ -9,4 +9,4 @@ If one IP exceed the limit setted, SynFB will send an alert e-mail to the admini
 </ul>
 
 <h2>Start SynFB</h2>
-<p>Run the start.sh <code>./start.sh</code></p>
+<p>Run the start.sh from shell <code>./start.sh</code></p>
