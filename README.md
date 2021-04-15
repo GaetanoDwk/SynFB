@@ -7,3 +7,6 @@ If one IP exceed the limit setted, SynFB will send an alert e-mail to the admini
         <br><code>netstat -ano | grep SYN_RECV |  awk {'print $4,$5'} | awk -F: {'print $1,$2'} | sort -k 3 | uniq -c | sort -k 1 | tail -1</code></li>
     <li>Python 2.7</li>
 </ul>
+
+<h2>Start SynFB</h2>
+<p>Run the start.sh <code>./start.sh</code></p>
